@@ -44,9 +44,9 @@ UX settings: DesktopSettings, TabletSettings, and PhoneSettings
 xsi:type : "ItemRead" / "ItemEdit"
 
 ```xml
-    <Form xsi:type="ItemRead">
+    <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="~remoteAppUrl/CeresTaskPane.html"/>
+        <SourceLocation DefaultValue="~remoteAppUrl/CeresAddIn.html"/>
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -71,6 +71,17 @@ Message / Appointment
 ### VersionOverrides
 
 #### ExtensionPoint
+
+```xml
+<ExtensionPoint xsi:type="AppointmentAttendeeCommandSurface">
+```
+
+of
+
+```xml
+<ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
+```
+
 
 [doc](https://docs.microsoft.com/en-us/office/dev/add-ins/reference/manifest/extensionpoint)
 

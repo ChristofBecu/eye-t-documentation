@@ -1,17 +1,17 @@
 # Ceres Outlook calendar add-in
 
-- [Ceres Outlook calendar add-in](#ceres-outlook-calendar-add-in)
-  - [Outlook web add-in](#outlook-web-add-in)
-  - [Outlook VSTO add-in](#outlook-vsto-add-in)
-  - [Verschillen](#verschillen)
-  - [Componenten van Office Web Add-in](#componenten-van-office-web-add-in)
-    - [Manifest.xml](#manifestxml)
-    - [Web app](#web-app)
-  - [Extending Office](#extending-office)
-    - [Custom buttons en menu commands](#custom-buttons-en-menu-commands)
-    - [Task panes](#task-panes)
-  - [Extend Outlook](#extend-outlook)
-  - [Research](#research)
+- [Ceres Outlook calendar add-in](#Ceres-Outlook-calendar-add-in)
+  - [Outlook web add-in](#Outlook-web-add-in)
+  - [Outlook VSTO add-in](#Outlook-VSTO-add-in)
+  - [Verschillen](#Verschillen)
+  - [Componenten van Office Web Add-in](#Componenten-van-Office-Web-Add-in)
+    - [Manifest.xml](#Manifestxml)
+    - [Web app](#Web-app)
+  - [Extending Office](#Extending-Office)
+    - [Custom buttons en menu commands](#Custom-buttons-en-menu-commands)
+    - [Task panes](#Task-panes)
+  - [Extend Outlook](#Extend-Outlook)
+  - [Research](#Research)
 
 ## Outlook web add-in
 
@@ -33,7 +33,7 @@
   - enkel voor de desktop versie van office
   - brede toegang tot interne outlook functies
   - C# / VBnet
-- ***Web ***
+- ***Web***
   - Cross platform
   - Loopt in een browser venster die geïnjecteerd wordt in de office toepassing
   - moet gehost worden op een web server, of hosting service
@@ -87,8 +87,6 @@
 
 ## Research
 
-[Research Web documentatie](webresearch.md)
+[Research Web documentatie](web-add-in/webresearch.md)
 
-[Research webhooks](webhooks.md)
-
-[Graph](graph.md)
+[Graph](graph/graph.md)
