@@ -82,6 +82,10 @@ of
 <ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
 ```
 
+#### Multiple Extensionpoints
+
+binnen `<DesktopFormFactor>` kunnen meerdere extensionpoints geplaatst worden
+
 
 [doc](https://docs.microsoft.com/en-us/office/dev/add-ins/reference/manifest/extensionpoint)
 
